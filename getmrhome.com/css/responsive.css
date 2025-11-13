@@ -1,0 +1,366 @@
+@media (min-width: 1440px) {
+	.container{max-width: 1188px;}
+	
+
+}
+
+
+
+
+@media (max-width: 1439px) {
+
+
+	}
+
+
+
+
+@media (max-width: 1365px) {}
+
+
+
+
+
+@media(max-width:1199px){
+	.d-t{display: block;}
+	.lcd-difference{background: none;}
+	.navbar-scroll h2{font-size: 26px;}
+	.mainbanner-sec .head-size{font-size: 31px;}
+	.mainbanner-sec .size{font-size: 14px;}
+	.talk-btn .head h2{font-size: 26px;}
+   .navbar-dark .navbar-nav .nav-link{font-size: 17px;}
+
+	.offer-head{font-size: 35px;}
+	.offer-subhead{font-size: 22px;}
+	h2.price-heading{font-size: 30px;}
+
+.directbanner_sec{height: 400px;background-size: 1539px auto;}
+.attbanner-sec{height: 400px;background-size: 1539px auto;}
+.frontierbanner-sec{height: 400px;background-size: 1539px auto;}
+.spectrumbanner-sec{height: 400px;background-size: 1539px auto;}
+.xfinitybanner-sec{height: 400px;background-size: 1539px auto;}
+.adtbanner-sec{height: 400px;background-size: 1539px auto;}
+.banner-text h1{font-size:30px;}
+.banner-text h3{font-size:18px;}
+.price-point__dollars{font-size:36px;}
+.price-point__frequency{font-size:12px;}
+.banner-text h1{margin: 40px 0 20px 0}
+.offer-desc.offer-align{padding:0px;padding-left: 250px;}
+
+
+}
+
+
+
+
+@media(max-width:991px){
+	header .navbar{padding:45px 0px;}
+	img.logo-prd.img-fluid{width: 100px;}
+		.lcd-difference img{padding-top: 20px;}
+		.home_bundled_sec{background-position:center;}
+		.saving-sec{width: 100%;float: none;}
+		.mobile-overlay{background: rgba(0,0,0,0.7);padding: 20px;}
+		.CTA-btn{padding: 10px 0px 10px 0px; }
+		.intro_block img{padding-top: 70px;}
+		.home_bundled_sec h2{font-size: 25px;}
+		.lcd-difference h2{font-size: 25px;}
+		.intro_block h2{font-size: 25px;}
+		.banner-text h1{font-size: 28px;}
+		.heading{font-size: 25px;}
+		.navbar-scroll h2{font-size: 18px;}
+		.tfn-show{height: 70px;padding: 22px;}
+		.wrap{padding: 30px 0px;}
+		.navbar-dark .navbar-nav .nav-link{font-size: 20px;}
+		.offer-desc.offer-align{padding-left: 130px;}
+
+
+
+		.talk-btn .talk-button{padding-bottom: 25px;}
+		.talk-btn .head{margin: 25px;}
+		.pricing-item{flex-basis: 30%;}
+		.banner-hbo ul li{width: 25%;}
+		.banner-hbo .banner__title{font-size: 18px;margin-bottom: 5px;}
+		h2.price-heading{font-size: 27px;}
+		p.price-text{font-size: 15px;}
+		.pricing-item h3{font-size: 20px;}
+	    .intro_block .desc-img{padding-top: 0px;}
+
+
+	    .offer-head{font-size: 32px;}
+
+
+.directbanner_sec{height: 350px;background-size: 1343px auto;}
+.directbanner_sec .banner-text{display: inline-block;padding: 0 15px;/*background: rgba(0,0,0,0.5);*/}
+.banner-text h1{font-size:28px;margin:25px 0 20px 0;}
+
+
+.attbanner-sec{height: 350px;background-size: 1343px auto;}
+.attbanner-sec .banner-text{display: inline-block;padding: 0 15px;/*background: rgba(0,0,0,0.5);*/}
+
+.broadband-sec{height: 350px;background-size: 1343px auto;}
+.broadband-sec .banner-text{display: inline-block;padding: 0 15px;/*background: rgba(0,0,0,0.5);*/}
+
+.bundles-sec{height: 350px;background-size: 1343px auto;}
+.bundles-sec .banner-text{display: inline-block;padding: 0 15px;/*background: rgba(0,0,0,0.5);*/padding-top: 20px;}
+
+.xfinitybanner-sec{height: 350px;background-size: 1343px auto;}
+.xfinitybanner-sec .banner-text{display: inline-block;padding: 0 15px;/*background: rgba(0,0,0,0.5);*/}
+
+.adtbanner-sec{height: 350px;background-size: 1343px auto;}
+.adtbanner-sec .banner-text{display: inline-block;padding: 0 15px;/*background: rgba(0,0,0,0.5);*/}
+
+
+
+
+.navbar-dark .navbar-nav {display:none;background: #000;width: 250px;padding: 20px;position: absolute;right: 16px;top: 61px;}
+header{position:relative;}
+header .navbar-toggler{position:absolute;right:70px;top:22px;}
+.navbar img {width: 180px;position: absolute;top: 8px;}
+
+.navbar-dark .navbar-nav:before {
+    position: absolute;
+    content: '';
+    top: -10px;
+    right: 5px;
+    border-bottom: 10px solid #d2a83b;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.mainbanner-sec{padding-top: 100px;}
+.iphone-sec h3{font-size: 18px;}
+.phone-sec{width: 60%;}
+.iphone-sec h2{font-size: 26px;}
+.iphone-sec p.size{font-size: 14px;}
+.lcd-difference p.res-align{padding-bottom: 20px;}
+li.left-res{padding-left: 0px;padding-bottom: 10px;}
+a.nav-link.phone{padding-left: 18px;}
+a.nav-link.book{padding-left: 30px;}
+.directbanner_sec .banner-text{padding-top: 20px;}
+.attbanner-sec .banner-text{padding-top: 20px;}
+.banner-text .price-point{font-size: 0px;}
+
+}
+
+
+
+
+
+
+@media(max-width:767px){
+	header .navbar{background: linear-gradient(to bottom, rgba(56,56,56,0.95) 0%,rgba(0,0,0,0.70) 100%);height: 70px;}
+	.navbar img {width: 200px;position: absolute;top: 15px;}
+	.banner-text{padding-top: 30px;}
+	.home_bundled_sec h2{font-size: 22px;}
+	.lcd-difference h2{font-size: 22px;}
+	.intro_block h2{font-size: 22px;}
+	.banner-text h1{font-size: 40px;}
+	.footer_logos{text-align: center;}
+	.privacy_links, .footer-bottom p{text-align: center;}
+	.heading{font-size: 22px;}
+	.our-clients{padding-bottom: 20px;}
+	.iphone-sec{background-size:1020px auto;background-repeat:no-repeat;height: 320px;background-position: center;}
+    .iphone-sec h2 {
+    font-size: 23px;}
+    .provider_box p{padding-bottom: 20px;}
+    .banner-text{padding-top: 0px;}
+
+	.talk-btn .head h2{font-size: 18px;}
+	.talk-button a{width: 160px;}
+	.intro_block h3{font-size: 20px;}
+
+	.offer-head{font-size: 28px;}
+	.offer-subhead{font-size: 20px;}
+	.pricing-item{padding-top: 3px;}
+	.offer-desc{padding-left: 0px;}
+	.price-point__dollars .space-left-align{padding-right: 10px;}
+	.price-point__frequency .space-align{padding-bottom: 20px;}
+
+.directbanner_sec {height: 650px;background-size: 1282px auto;}
+.directbanner_sec .banner-text{display: block;padding:0 15px;background:none;margin-top:290px;}
+.attbanner-sec {height: 650px;background-size: 1282px auto;}
+.attbanner-sec .banner-text{display: block;padding:0 15px;background:none;margin-top:290px;}
+.broadband-sec{
+    height: 730px;
+    background-size: 1282px auto;
+}
+.broadband-sec .banner-text {
+    display: block;
+    padding: 0 15px;
+    background: none;
+    margin-top: 290px;
+}
+.bundles-sec{
+    height: 700px;
+    background-size: 1282px auto;
+}
+.bundles-sec .banner-text {
+    display: block;
+    padding: 0 15px;
+    background: none;
+    margin-top: 290px;
+}
+.price-point__dollars.space-left-align {
+    padding-right: 20px;
+}
+.price-point__frequency.space-align {
+    padding-bottom: 12px;
+}
+
+
+.banner-text h3{display: block;}
+ .address{padding-bottom: 20px;}
+
+}
+
+
+
+@media(max-width:575px){
+	/*img.desktop_logo.img-fluid{width: 220px;}*/
+	.CTA-btn{padding: 10px 0px 10px 40px;}
+	.home_bundled_sec h2{font-size: 20px;}
+	.lcd-difference h2{font-size: 20px;}
+	.intro_block h2{font-size: 20px;}
+	.heading{font-size: 20px;}
+	.our-clients{padding-bottom: 0px;}
+	.banner-text h1{ margin: 30px 0 20px 0;font-size: 33px;}
+	.mainbanner-sec .head-size{font-size: 27px;}
+
+
+
+     .banner--vrc p{font-size: 15px;}
+     .banner--vrc .legal{font-size: 10px;}
+     .banner-hbo ul li img{width: 75px;}
+     .banner-hbo .banner__title{font-size: 16px;}
+     .banner-subheadline{font-size: 13px;}
+     p.price-text{font-size: 13px;}
+     .pricing-item h3{padding-top: 10px;}
+
+     .margin-fifteen-bottom{ margin-bottom: 3% !important;}
+
+     .navbar img{width: 200px;padding-left: 20px;}
+     .banner-text h5{margin: 5px 0px 15px 0px;}
+     .iphone-sec h2{font-size: 20px;}
+     .iphone-sec h3{font-size: 16px;}
+     .intro_block img{padding-top: 30px;}
+     .broadband-sec{height: 680px;}
+     .offer-desc.offer-align {
+    padding-left: 30px;
+}
+.bundles-sec{height: 650px;}
+}
+
+
+
+
+
+@media(max-width:479px){
+	.news-ticker h2{font-size: 12px;}
+	.mainbanner_sec{border-bottom-left-radius:0px !important;height: 430px;}
+	.home_bundled_sec h2{font-size: 18px;}
+	.lcd-difference h2{font-size: 18px;}
+	.intro_block h2{font-size: 18px;}
+	.heading{font-size: 18px;}
+	footer p{font-size: 10px;}
+	.navbar-scroll h2{font-size: 16px;}
+	.tfn-show{padding: 16px;}
+	.mainbanner-sec .head-size{font-size: 25px;}
+	.banner-text h1{font-size: 30px;}
+
+
+
+	.banner--vrc img{width: 150px !important;}
+	.banner--vrc p{font-size: 13px;}
+	.banner-hbo ul li img{width: 60px;}
+	.banner-hbo .banner__title{font-size: 13px;}
+	 .banner-subheadline{font-size: 10px;}
+	 h2.price-heading{font-size: 24px;}
+	 .talk-btn .head h2{font-size: 15px;}
+	 .talk-button a{width: 150px;}
+
+
+	 .offer-head{font-size: 25px;}
+	 .offer-subhead{font-size: 18px;}
+	 .offer-desc{font-size: 13px;padding: 0px 45px;}
+	 .center{padding-left: 125px;}
+	 .small-txt{text-align: center;}
+	 header .navbar-toggler{top:25px;}
+	 .banner-text{padding-top: 0px;}
+}
+
+
+
+
+
+@media(max-width:413px){
+	.news-ticker h2{font-size: 11px;}
+	.banner-text h1{font-size: 28px;}
+	.mainbanner-sec .head-size{font-size: 21px;}
+
+
+
+	.banner--vrc img{width: 130px !important;}
+    .banner--vrc p{font-size: 11px;}
+    .banner--vrc .legal{font-size: 8px;}
+    .banner-hbo ul li img{width: 50px;}
+    .banner-hbo .banner__title{font-size: 11px;}
+    .banner-subheadline{font-size: 9px;}
+    h2.price-heading{font-size: 20px;}
+    p.price-text{font-size: 11px;}
+    .intro_block h3{font-size: 18px;}
+    .intro-desc p{margin-bottom: 10px;font-size: 12px;}
+
+
+     .offer-head{font-size: 21px;}
+	 .offer-subhead{font-size: 16px;}
+	 .offer-desc.offer-align{font-size: 10px;}
+
+	 .banner-text h3 {font-size: 16px;}
+	 .center{padding-left: 90px;}
+	 .adtbanner-sec {background-size: 1200px auto;}
+	 .iphone-sec h2{font-size: 17px;}
+	 .bundles-sec{height: 680px;}
+	 header .navbar-toggler{right:30px;}
+
+}
+
+
+
+
+@media(max-width:374px){
+	.mainbanner-sec .head-size{font-size: 19px;}
+   
+
+
+	.banner--vrc img{width: 120px !important;}
+    .banner--vrc p{font-size: 9px;}
+    .banner--vrc .legal{font-size: 6px;}
+    .banner-hbo ul li img{width: 45px;}
+    .banner-hbo .banner__title{font-size: 10px;}
+    .banner-subheadline{font-size: 8px;}
+     h2.price-heading{font-size: 18px;}
+    p.price-text{font-size: 11px;}
+    .pricing-item h3{font-size: 17px;}
+    .talk-btn .head{margin: 15px;}
+
+
+
+     .offer-head{font-size: 18px;}
+	 .offer-subhead{font-size: 14px;}
+	 .offer-desc{padding: 0px 25px;}
+   .attbanner-sec{height: 715px;}
+   .banner-text h6{margin: 5px 0 15px 0;}
+   .banner-text h1{font-size: 26px;}
+   .banner-text h3{font-size: 14px;}
+   .center{padding-left: 70px;}
+   .news-ticker h2{font-size: 9px;}
+   .adtbanner-sec {background-size: 1100px auto;}
+   .iphone-sec h2 {
+    font-size: 15px;
+}
+
+}
+
+
+
+
+

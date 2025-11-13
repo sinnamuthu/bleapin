@@ -1,0 +1,14 @@
+/*Dashboard CSS*/
+.body{
+    margin: 0;
+    padding: 0;
+}
+.has-error > input {
+    border: 1px solid #FF0000;
+}
+.help-block {
+    color: #FF0000;
+}
+#errors > p{
+    color: #FF0000;
+}

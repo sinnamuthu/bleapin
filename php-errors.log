@@ -1,0 +1,204 @@
+[17-Dec-2019 18:21:36 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials k9sm4239160pje.26 - gsmtp
+[17-Dec-2019 18:21:36 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in /var/www/beta/wp-includes/class-wp-hook.php on line 288 and defined in /var/www/beta/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php:45
+Stack trace:
+#0 /var/www/beta/wp-includes/class-wp-hook.php(288): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 /var/www/beta/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/beta/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/beta/wp-includes/post.php(3951): do_action('save_post', 0, NULL, false)
+#4 /var/www/beta/wp-content/plugins/post-smtp/Postman/Postman-Email-Log/PostmanEmailLogService.php(121): wp_insert_post(Array)
+#5 /var/www/beta/wp-content/plugins/post-smtp/Postman/Postman-Email-Log/PostmanEmailLogService.php(98): PostmanEmailLogService->writeToEmailLog(Object(PostmanEmailLog))
+#6 /var/www/beta/wp-content/plugins/post-smtp/Postman/PostmanWpMail.php(235): PostmanEmailLogSe in /var/www/beta/wp-content/plugins/wordpress-seo/admin/links/class-link-watcher.php on line 45
+[03-Feb-2020 04:08:26 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials a16sm17560546pgb.5 - gsmtp
+[27-Feb-2020 06:16:09 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials b3sm4656585pjo.30 - gsmtp
+[28-Feb-2020 08:35:14 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials c7sm1935876pfp.98 - gsmtp
+[02-Mar-2020 20:28:45 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 13sm21802486pfi.78 - gsmtp
+[17-Mar-2020 06:24:37 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials i13sm1786433pfd.180 - gsmtp
+[17-Mar-2020 07:37:00 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials w27sm2041468pfq.211 - gsmtp
+[17-Mar-2020 08:39:34 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 144sm1893463pgc.25 - gsmtp
+[17-Mar-2020 09:42:01 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials f4sm2596620pfn.116 - gsmtp
+[17-Mar-2020 10:50:21 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials w6sm2836367pfn.104 - gsmtp
+[17-Mar-2020 11:50:45 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials k3sm2493784pgr.40 - gsmtp
+[17-Mar-2020 12:54:54 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials c128sm3230921pfa.11 - gsmtp
+[17-Mar-2020 13:56:41 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials w6sm3448422pfn.104 - gsmtp
+[17-Mar-2020 14:57:30 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials ep7sm3064129pjb.24 - gsmtp
+[17-Mar-2020 15:58:25 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials j12sm3233516pga.78 - gsmtp
+[17-Mar-2020 16:59:04 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials u3sm3895948pfb.36 - gsmtp
+[17-Mar-2020 18:01:47 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials a13sm3734295pfc.24 - gsmtp
+[17-Mar-2020 19:03:05 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 136sm3395732pgh.26 - gsmtp
+[17-Mar-2020 20:08:08 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials i131sm3535163pgc.18 - gsmtp
+[19-Mar-2020 13:41:02 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 26sm2380043pfp.130 - gsmtp
+[15-Apr-2020 07:31:29 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials k189sm11930018pgc.24 - gsmtp
+[23-Apr-2020 14:19:33 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials c59sm2699721pje.10 - gsmtp
+[30-Apr-2020 04:58:31 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials f2sm658767pju.32 - gsmtp
+[01-May-2020 15:03:17 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials v9sm10088pju.3 - gsmtp
+[05-May-2020 12:02:31 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials e16sm1455980pgg.8 - gsmtp
+[05-May-2020 15:39:09 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials p1sm2419933pjf.15 - gsmtp
+[06-May-2020 20:20:36 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials j7sm2596938pfi.160 - gsmtp
+[01-Jun-2020 03:46:35 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials e13sm11409721pgh.76 - gsmtp
+[12-Jun-2020 11:34:15 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x11sm6215351pfq.169 - gsmtp
+[24-Jul-2020 15:50:37 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials k100sm6190809pjb.57 - gsmtp
+[29-Jul-2020 09:27:15 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials m26sm1672800pff.84 - gsmtp
+[03-Aug-2020 20:49:59 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials i12sm4112168pgj.23 - gsmtp
+[04-Aug-2020 05:44:14 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials mp1sm874664pjb.27 - gsmtp
+[17-Aug-2020 22:02:40 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials q16sm21842145pfg.153 - gsmtp
+[21-Aug-2020 06:26:19 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials s4sm1171021pfh.128 - gsmtp
+[01-Sep-2020 01:03:40 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials y8sm9286132pfp.185 - gsmtp
+[17-Sep-2020 02:23:55 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials nl10sm3588383pjb.11 - gsmtp
+[05-Oct-2020 11:39:57 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials n127sm11921973pfn.155 - gsmtp
+[20-Oct-2020 14:06:45 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials z142sm2513960pfc.179 - gsmtp
+[26-Oct-2020 06:25:29 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials j23sm9697947pgm.76 - gsmtp
+[30-Oct-2020 04:06:45 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials l13sm3792164pgp.25 - gsmtp
+[31-Oct-2020 05:00:37 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials hi10sm14603571pjb.0 - gsmtp
+[20-Nov-2020 10:43:08 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials p127sm3101260pfp.93 - gsmtp
+[26-Nov-2020 11:04:34 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials c6sm4359217pgl.38 - gsmtp
+[02-Dec-2020 16:48:59 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials p21sm314096pfn.87 - gsmtp
+[17-Dec-2020 23:00:53 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 6sm6735152pfj.216 - gsmtp
+[20-Dec-2020 10:23:32 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials d6sm13341762pfd.69 - gsmtp
+[22-Dec-2020 00:20:57 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials z11sm17019964pjn.5 - gsmtp
+[22-Dec-2020 00:24:24 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials i130sm17473179pfe.94 - gsmtp
+[22-Dec-2020 18:47:24 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials q16sm21474305pfg.139 - gsmtp
+[22-Dec-2020 19:40:09 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials g202sm20585312pfb.196 - gsmtp
+[22-Dec-2020 20:03:37 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials z11sm21783485pfj.191 - gsmtp
+[22-Dec-2020 20:25:39 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials b10sm21157620pgh.15 - gsmtp
+[11-Jan-2021 10:13:30 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x22sm19681326pfc.19 - gsmtp
+[07-Feb-2021 23:59:35 UTC] ERROR PostmanWpMail: Exception code=0 message=No body specified
+[23-Feb-2021 08:56:03 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials g15sm21125072pfb.30 - gsmtp
+[23-Feb-2021 08:58:24 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials c12sm2312986pjq.48 - gsmtp
+[09-Mar-2021 12:42:14 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials f15sm2009030pgg.84 - gsmtp
+[27-Mar-2021 07:36:54 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials b9sm10839886pgn.42 - gsmtp
+[15-Apr-2021 14:28:39 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials g4sm2702014pgu.46 - gsmtp
+[17-Apr-2021 14:07:03 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials g18sm7802002pfb.178 - gsmtp
+[17-Apr-2021 14:07:12 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials m188sm7377535pfm.167 - gsmtp
+[17-Apr-2021 14:07:25 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials m11sm8562121pgs.4 - gsmtp
+[18-Apr-2021 04:33:13 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials r1sm10666890pjo.26 - gsmtp
+[18-Apr-2021 04:36:14 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x2sm8811688pfu.77 - gsmtp
+[18-Apr-2021 04:36:23 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials q3sm10836570pja.37 - gsmtp
+[18-Apr-2021 14:44:53 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials n33sm9437241pfv.162 - gsmtp
+[18-Apr-2021 14:46:52 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials o5sm10751286pgq.58 - gsmtp
+[18-Apr-2021 14:46:56 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials g15sm10184967pfv.216 - gsmtp
+[22-Apr-2021 12:46:15 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials d3sm5189064pjw.35 - gsmtp
+[22-Apr-2021 12:46:51 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x20sm2385875pjp.12 - gsmtp
+[22-Apr-2021 12:46:56 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials w8sm1978260pfu.35 - gsmtp
+[22-Apr-2021 12:49:31 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials c11sm2288064pgk.83 - gsmtp
+[07-May-2021 12:57:37 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials z23sm4422538pjh.44 - gsmtp
+[07-May-2021 13:00:13 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials y195sm5273798pfb.11 - gsmtp
+[07-May-2021 13:00:22 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials c134sm4802882pfb.135 - gsmtp
+[09-May-2021 23:07:09 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 187sm9635854pff.139 - gsmtp
+[13-May-2021 11:02:33 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials a16sm1865205pfa.95 - gsmtp
+[13-May-2021 16:02:57 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials a24sm2393627pgv.76 - gsmtp
+[16-May-2021 19:11:21 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x19sm5571348pfp.153 - gsmtp
+[16-May-2021 19:12:45 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials c24sm8161145pfi.32 - gsmtp
+[17-May-2021 06:06:46 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials i9sm16482792pjh.9 - gsmtp
+[17-May-2021 09:17:07 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials j7sm9158637pfc.164 - gsmtp
+[13-Jun-2021 05:54:01 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials e10sm10047267pgc.63 - gsmtp
+[13-Jun-2021 05:54:14 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials g13sm9270719pfv.65 - gsmtp
+[13-Jun-2021 05:54:22 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials fw16sm13806233pjb.30 - gsmtp
+[13-Jun-2021 05:56:33 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials y5sm9388144pfo.25 - gsmtp
+[13-Jun-2021 06:31:33 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials o16sm8972007pfu.75 - gsmtp
+[13-Jun-2021 06:32:32 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials v6sm9341342pfi.46 - gsmtp
+[13-Jun-2021 09:38:26 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials w10sm9418604pfg.196 - gsmtp
+[14-Jun-2021 06:56:13 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials 21sm11956127pfy.92 - gsmtp
+[14-Jun-2021 07:04:22 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials z24sm12037482pfk.149 - gsmtp
+[14-Jun-2021 07:06:50 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials x206sm11739000pfc.211 - gsmtp
+[14-Jun-2021 07:27:27 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials u4sm219881pfu.27 - gsmtp
+[14-Jun-2021 07:36:43 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials d13sm11322366pfn.136 - gsmtp
+[14-Jun-2021 08:39:00 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials d12sm11647806pfo.113 - gsmtp
+[14-Jun-2021 09:11:53 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials s24sm17406000pju.9 - gsmtp
+[14-Jun-2021 10:13:53 UTC] ERROR PostmanWpMail: Exception code=535 message=5.7.8 Username and Password not accepted. Learn more at
+ 5.7.8  https://support.google.com/mail/?p=BadCredentials m134sm12529305pfd.148 - gsmtp

@@ -1,0 +1,581 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Lifestyle 1.0\n"
+"POT-Creation-Date: 2017-06-04 18:29+0700\n"
+"PO-Revision-Date: 2017-06-04 18:54+0700\n"
+"Language-Team: Nord Studio <nordthemes@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;__;_e;_x:1,2c;_nx:1,2;_nx:1,2,4c;esc_html_x:1,2c\n"
+"Last-Translator: \n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "Page not found"
+msgstr "Page introuvable"
+
+#: 404.php:19
+msgid "Whoops!"
+msgstr "Oups&nbsp;!"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Apparemment, rien n&rsquo;a été trouvé à cette adresse. Essayez avec une "
+"recherche&nbsp;?"
+
+#: 404.php:24 template-parts/content-none.php:28
+msgid "Back To Homepage &rarr;"
+msgstr "Retournez à l&rsquo;accueil &rarr;"
+
+#: comments.php:24
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "Une réflexion au sujet de &laquo;&nbsp;%2$s&nbsp;&raquo;"
+msgstr[1] "%1$s réflexions au sujet de &laquo;&nbsp;%2$s&nbsp;&raquo;"
+
+#: comments.php:39
+msgid "&larr; Older Comments"
+msgstr "&larr; Anciens commentaires"
+
+#: comments.php:40
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: comments.php:45
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:57
+msgid "Comment"
+msgstr "Texte du commentaire"
+
+#: comments.php:60
+msgid "Name"
+msgstr "Nom"
+
+#: comments.php:62 inc/customizer.php:680
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:64
+msgid "Website"
+msgstr "Site web"
+
+#: footer.php:16
+msgid "Next post"
+msgstr "Article suivant"
+
+#: footer.php:16
+msgid "Next"
+msgstr "Suivant"
+
+#: footer.php:17
+msgid "Previous post"
+msgstr "Article précédent"
+
+#: footer.php:17
+msgid "Previous"
+msgstr "Précédent"
+
+#: functions.php:62
+msgid "Primary Navigation"
+msgstr "Navigation principale"
+
+#: functions.php:190
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:195
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:200
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:205
+msgctxt "Open Sans font: on or off"
+msgid "off"
+msgstr "off"
+
+#: functions.php:210
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: functions.php:262
+msgid "Author"
+msgstr "Auteur"
+
+#: functions.php:542
+msgid "Footer Widgets &mdash; Column 1"
+msgstr "1ère zone de pied de page"
+
+#: functions.php:544 functions.php:554 functions.php:564
+msgid "Add widgets here to appear in footer."
+msgstr "Ajoutez ici des widgets qui apparaîtront dans votre pied de page."
+
+#: functions.php:552
+msgid "Footer Widgets &mdash; Column 2"
+msgstr "2ème zone de pied de page"
+
+#: functions.php:562
+msgid "Footer Widgets &mdash; Column 3"
+msgstr "3ème zone de pied de page"
+
+#: functions.php:580 template-parts/content-gallery.php:55
+#: template-parts/content-single-portfolio-gallery.php:35
+#: template-parts/content-single-portfolio-video.php:24
+#: template-parts/content-single-portfolio.php:28
+#: template-parts/content-video.php:44 template-parts/content.php:44
+msgid "Continue Reading &rarr;"
+msgstr "Continuer la lecture &rarr;"
+
+#: functions.php:596
+msgctxt "placeholder"
+msgid "Search&hellip;"
+msgstr "Recherche&hellip;"
+
+#: functions.php:596
+msgctxt "title tag"
+msgid "Search for:"
+msgstr "Recherche pour :"
+
+#: functions.php:655
+msgid "Portfolio"
+msgstr "Portefeuille"
+
+#: functions.php:667
+msgid "Full Width"
+msgstr "Pleine largeur"
+
+#: header.php:47
+msgid "Menu"
+msgstr "Menu"
+
+#: image.php:39 portfolio-grid.php:32 template-parts/content-gallery.php:58
+#: template-parts/content-page-gallery.php:34
+#: template-parts/content-page-video.php:23 template-parts/content-page.php:23
+#: template-parts/content-single-portfolio-gallery.php:38
+#: template-parts/content-single-portfolio-video.php:27
+#: template-parts/content-single-portfolio.php:31
+#: template-parts/content-video.php:47 template-parts/content.php:47
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+#: image.php:62
+msgid "Previous Image"
+msgstr "Image précédente"
+
+#: image.php:62
+msgid "Next Image"
+msgstr "Image suivante"
+
+#: inc/class-the-lifestyle-metaboxes-setup.php:39
+msgid "Select Image"
+msgstr "Sélectionner une image"
+
+#: inc/class-the-lifestyle-metaboxes-setup.php:40
+msgid "Choose Image"
+msgstr "Choisir une image"
+
+#: inc/class-the-lifestyle-metaboxes-setup.php:48
+msgid "Header Image"
+msgstr "Image d’en-tête"
+
+#: inc/class-the-lifestyle-metaboxes-setup.php:51 inc/customizer.php:767
+msgid "Page Options"
+msgstr "Options de la page"
+
+#: inc/class-the-lifestyle-metaboxes-setup.php:76
+msgid "Set header image"
+msgstr "Définir l’mage d’en-tête"
+
+#: inc/class-the-lifestyle-metaboxes-setup.php:79
+msgid "Remove header image"
+msgstr "Retirer l’mage d’en-tête"
+
+#: inc/class-the-lifestyle-metaboxes-setup.php:94
+msgid "Display title"
+msgstr "Afficher le titre de la page"
+
+#: inc/class-the-lifestyle-metaboxes-setup.php:97 inc/customizer.php:744
+#: inc/customizer.php:781 inc/customizer.php:849
+msgid "Display share buttons"
+msgstr "Afficher les boutons de partage"
+
+#: inc/customizer.php:22
+msgid "Site Description"
+msgstr "Description du site"
+
+#: inc/customizer.php:44
+msgid "Logo Size"
+msgstr "Taille du logo"
+
+#: inc/customizer.php:62
+msgid "Display Site Title"
+msgstr "Afficher le titre du site"
+
+#: inc/customizer.php:80
+msgid "Tagline"
+msgstr "Tagline"
+
+#: inc/customizer.php:81 inc/customizer.php:956
+msgid ""
+"You may use these HTML tags and attributes: a[href,title], p, b, strong, em, "
+"i, br, span, img[src, alt, title]"
+msgstr ""
+"Vous pouvez utiliser ces balises et attributs HTML&nbsp;: a[href,title], p, "
+"b, strong, em, i, br, span, img[src, alt, title]"
+
+#: inc/customizer.php:100
+msgid "Blackout"
+msgstr "Blackout"
+
+#: inc/customizer.php:114
+msgid "Welcome Text"
+msgstr "Texte de bienvenue"
+
+#: inc/customizer.php:125
+msgid "Page with welcome text"
+msgstr "Page avec le texte de bienvenue"
+
+#: inc/customizer.php:126
+msgid "Select the page with your custom welcome text."
+msgstr "Sélectionnez la page avec votre texte de bienvenue personnalisé."
+
+#: inc/customizer.php:139
+msgid "Display only on the homepage"
+msgstr "Afficher uniquement sur la page d'accueil"
+
+#: inc/customizer.php:160
+msgid "Links"
+msgstr "Liens"
+
+#: inc/customizer.php:180
+msgid "Links (hover)"
+msgstr "Liens (hover)"
+
+#: inc/customizer.php:200
+msgid "Buttons"
+msgstr "Boutons"
+
+#: inc/customizer.php:220
+msgid "Buttons (hover)"
+msgstr "Boutons (hover)"
+
+#: inc/customizer.php:240
+msgid "Buttons Text"
+msgstr "Bouton Texte"
+
+#: inc/customizer.php:252
+msgid "Social Profiles"
+msgstr "Profils sociaux"
+
+#: inc/customizer.php:267 inc/customizer.php:888
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:281 inc/customizer.php:902
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:295 inc/customizer.php:916
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/customizer.php:309
+msgid "Bloglovin"
+msgstr "Bloglovin"
+
+#: inc/customizer.php:323 inc/widgets.php:21 inc/widgets.php:68
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer.php:337 inc/customizer.php:930
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer.php:351
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/customizer.php:365
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/customizer.php:379
+msgid "Medium"
+msgstr "Medium"
+
+#: inc/customizer.php:393
+msgid "Vkontakte"
+msgstr "Vkontakte"
+
+#: inc/customizer.php:407
+msgid "500px"
+msgstr "500px"
+
+#: inc/customizer.php:421
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/customizer.php:435
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/customizer.php:449
+msgid "Behance"
+msgstr "Behance"
+
+#: inc/customizer.php:463
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/customizer.php:477
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/customizer.php:491
+msgid "Github"
+msgstr "Github"
+
+#: inc/customizer.php:505
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: inc/customizer.php:519
+msgid "Rss"
+msgstr "Rss"
+
+#: inc/customizer.php:533
+msgid "Etsy"
+msgstr "Etsy"
+
+#: inc/customizer.php:547
+msgid "Steam"
+msgstr "Steam"
+
+#: inc/customizer.php:561
+msgid "Snapchat"
+msgstr "Snapchat"
+
+#: inc/customizer.php:575
+msgid "Twitch"
+msgstr "Twitch"
+
+#: inc/customizer.php:589
+msgid "Quora"
+msgstr "Quora"
+
+#: inc/customizer.php:603
+msgid "Odnoklassniki"
+msgstr "Odnoklassniki"
+
+#: inc/customizer.php:617
+msgid "Reddit"
+msgstr "Reddit"
+
+#: inc/customizer.php:631
+msgid "Xing"
+msgstr "Xing"
+
+#: inc/customizer.php:645
+msgid "Weibo"
+msgstr "Weibo"
+
+#: inc/customizer.php:659
+msgid "Renren"
+msgstr "Renren"
+
+#: inc/customizer.php:688
+msgid "Post Options"
+msgstr "Options de l'article"
+
+#: inc/customizer.php:702 inc/customizer.php:807
+msgid "Display category"
+msgstr "Afficher la catégories"
+
+#: inc/customizer.php:716
+msgid "Display post date"
+msgstr "Afficher la date du contenu"
+
+#: inc/customizer.php:730 inc/customizer.php:835
+msgid "Display tags"
+msgstr "Afficher l’étiquettes"
+
+#: inc/customizer.php:758
+msgid "Display author name"
+msgstr "Afficher le nom de l'auteur"
+
+#: inc/customizer.php:793
+msgid "Portfolio Options"
+msgstr "Portefeuille d'options"
+
+#: inc/customizer.php:821
+msgid "Display featured image"
+msgstr "Afficher l’Image mise en avant"
+
+#: inc/customizer.php:863
+msgid "Display comments"
+msgstr "Afficher les commentaires"
+
+#: inc/customizer.php:874
+msgid "Share Buttons"
+msgstr "Boutons de partage"
+
+#: inc/customizer.php:939
+msgid "Footer"
+msgstr "Pied de page"
+
+#: inc/customizer.php:955
+msgid "Copyright"
+msgstr "Texte de copyright"
+
+#: inc/customizer.php:966
+msgid "Other Options"
+msgstr "Autres options"
+
+#: inc/template-tags.php:223
+#, php-format
+msgid "Posted on %s"
+msgstr "Publié le %s"
+
+#: inc/template-tags.php:228
+#, php-format
+msgctxt "Post author"
+msgid "by %s"
+msgstr "par %s"
+
+#: inc/template-tags.php:334
+msgid "Share on Facebook"
+msgstr "Partager sur Facebook"
+
+#: inc/template-tags.php:340
+msgid "Tweet It"
+msgstr "Twittez-le !"
+
+#: inc/template-tags.php:346
+msgid "Share on Google Plus"
+msgstr "Partager sur Google"
+
+#: inc/template-tags.php:352
+msgid "Pin It"
+msgstr "Pin"
+
+#: inc/template-tags.php:395
+msgid "Posts navigation"
+msgstr "Navigation des articles"
+
+#: inc/template-tags.php:399
+msgid "Older posts"
+msgstr "Articles plus anciens"
+
+#: inc/template-tags.php:403
+msgid "Newer posts"
+msgstr "Articles plus récents"
+
+#: inc/widgets.php:23
+msgid "Widget displays latest Instagram images."
+msgstr "Afficher vos derni&egrave;res photos Instagram."
+
+#: inc/widgets.php:76
+msgid "Title:"
+msgstr "Titre&nbsp;:"
+
+#: inc/widgets.php:82
+msgid "Username:"
+msgstr "Nom d'utilisateur&nbsp;:"
+
+#: inc/widgets.php:88
+msgid "Number of photos:"
+msgstr "Nombre d'images à afficher&nbsp;:"
+
+#: inc/widgets.php:94
+msgid "Columns:"
+msgstr "Colonnes&nbsp;:"
+
+#: inc/widgets.php:126
+msgid "Unable to communicate with Instagram."
+msgstr "Impossible de communiquer avec Instagram."
+
+#: inc/widgets.php:129
+msgid "Instagram did not return a 200."
+msgstr "Instagram n'a pas retourné un 200."
+
+#: inc/widgets.php:136 inc/widgets.php:141 inc/widgets.php:145
+msgid "Instagram has returned invalid data."
+msgstr "Instragram a retourné une data invalide"
+
+#: inc/widgets.php:176
+msgid "Instagram did not return any images."
+msgstr "Instagram n’a retourné aucune image."
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour&nbsp;: %s"
+
+#: search.php:21
+#, php-format
+msgid "%s results found."
+msgstr "%s résultats trouvés."
+
+#: template-parts/author-bio.php:11
+#, php-format
+msgid "Published by %s"
+msgstr "Publié par %s"
+
+#: template-parts/author-bio.php:21
+#, php-format
+msgid "View all posts by %s &rarr;"
+msgstr "Afficher tous les articles par %s &rarr;"
+
+#: template-parts/content-gallery.php:28 template-parts/content-video.php:17
+#: template-parts/content.php:17
+msgid "Featured"
+msgstr "Mis en avant"
+
+#: template-parts/content-none.php:10
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+#: template-parts/content-none.php:19
+msgid "Ready to publish your first post?"
+msgstr "Prêt(e) à publier votre premier article&nbsp;?"
+
+#: template-parts/content-none.php:19
+msgid "Get started here"
+msgstr "Lancez-vous ici"
+
+#: template-parts/content-none.php:24
+msgid "No Results Found"
+msgstr "Aucun résultat"
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, mais rien ne correspond à votre recherche. Veuillez réessayer avec "
+"des mots différents."
+
+#: template-parts/content-none.php:32
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Il semble que ce que vous cherchez est introuvable. Essayez avec une "
+"recherche."

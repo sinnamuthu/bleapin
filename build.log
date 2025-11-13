@@ -1,0 +1,86 @@
+
+> @ dev C:\projects\react\bleap\check\bleap
+> npm run development
+
+
+> @ development C:\projects\react\bleap\check\bleap
+> cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js
+
+C:\projects\react\bleap\check\bleap\node_modules\webpack-cli\bin\cli.js:281
+				throw err;
+				^
+
+Error: Cannot find module 'vue-template-compiler'
+Require stack:
+- C:\projects\react\bleap\check\bleap\node_modules\vue-loader\lib\compiler.js
+- C:\projects\react\bleap\check\bleap\node_modules\vue-loader\lib\resolveScript.js
+- C:\projects\react\bleap\check\bleap\node_modules\vue-loader\lib\select.js
+- C:\projects\react\bleap\check\bleap\node_modules\vue-loader\lib\index.js
+- C:\projects\react\bleap\check\bleap\node_modules\laravel-mix\src\components\Vue.js
+- C:\projects\react\bleap\check\bleap\node_modules\laravel-mix\src\components\JavaScript.js
+- C:\projects\react\bleap\check\bleap\node_modules\laravel-mix\src\components\ComponentFactory.js
+- C:\projects\react\bleap\check\bleap\node_modules\laravel-mix\setup\webpack.config.js
+- C:\projects\react\bleap\check\bleap\node_modules\webpack-cli\bin\utils\convert-argv.js
+- C:\projects\react\bleap\check\bleap\node_modules\webpack-cli\bin\cli.js
+- C:\projects\react\bleap\check\bleap\node_modules\webpack\bin\webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:772:15)
+    at Function.resolve (C:\projects\react\bleap\check\bleap\node_modules\v8-compile-cache\v8-compile-cache.js:164:23)
+    at loadFromContext (C:\projects\react\bleap\check\bleap\node_modules\vue-loader\lib\compiler.js:30:26)
+    at loadTemplateCompiler (C:\projects\react\bleap\check\bleap\node_modules\vue-loader\lib\compiler.js:37:12)
+    at exports.resolveCompiler (C:\projects\react\bleap\check\bleap\node_modules\vue-loader\lib\compiler.js:25:23)
+    at VueLoaderPlugin.apply (C:\projects\react\bleap\check\bleap\node_modules\vue-loader\lib\plugin-webpack4.js:91:22)
+    at VueLoaderPlugin.apply (C:\projects\react\bleap\check\bleap\node_modules\vue-loader\lib\plugin.js:13:16)
+    at webpack (C:\projects\react\bleap\check\bleap\node_modules\webpack\lib\webpack.js:51:13)
+    at processOptions (C:\projects\react\bleap\check\bleap\node_modules\webpack-cli\bin\cli.js:272:16)
+    at C:\projects\react\bleap\check\bleap\node_modules\webpack-cli\bin\cli.js:364:3
+    at Object.parse (C:\projects\react\bleap\check\bleap\node_modules\yargs\yargs.js:576:18)
+    at C:\projects\react\bleap\check\bleap\node_modules\webpack-cli\bin\cli.js:49:8
+    at Object.<anonymous> (C:\projects\react\bleap\check\bleap\node_modules\webpack-cli\bin\cli.js:366:3)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (C:\projects\react\bleap\check\bleap\node_modules\webpack\bin\webpack.js:156:2)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:999:10)
+    at internal/main/run_main_module.js:17:11 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\projects\\react\\bleap\\check\\bleap\\node_modules\\vue-loader\\lib\\compiler.js',
+    'C:\\projects\\react\\bleap\\check\\bleap\\node_modules\\vue-loader\\lib\\resolveScript.js',
+    'C:\\projects\\react\\bleap\\check\\bleap\\node_modules\\vue-loader\\lib\\select.js',
+    'C:\\projects\\react\\bleap\\check\\bleap\\node_modules\\vue-loader\\lib\\index.js',
+    'C:\\projects\\react\\bleap\\check\\bleap\\node_modules\\laravel-mix\\src\\components\\Vue.js',
+    'C:\\projects\\react\\bleap\\check\\bleap\\node_modules\\laravel-mix\\src\\components\\JavaScript.js',
+    'C:\\projects\\react\\bleap\\check\\bleap\\node_modules\\laravel-mix\\src\\components\\ComponentFactory.js',
+    'C:\\projects\\react\\bleap\\check\\bleap\\node_modules\\laravel-mix\\setup\\webpack.config.js',
+    'C:\\projects\\react\\bleap\\check\\bleap\\node_modules\\webpack-cli\\bin\\utils\\convert-argv.js',
+    'C:\\projects\\react\\bleap\\check\\bleap\\node_modules\\webpack-cli\\bin\\cli.js',
+    'C:\\projects\\react\\bleap\\check\\bleap\\node_modules\\webpack\\bin\\webpack.js'
+  ]
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ development: `cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the @ development script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\SinnaMuthu\AppData\Roaming\npm-cache\_logs\2025-11-12T10_29_36_101Z-debug.log
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ dev: `npm run development`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the @ dev script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\SinnaMuthu\AppData\Roaming\npm-cache\_logs\2025-11-12T10_29_36_159Z-debug.log
