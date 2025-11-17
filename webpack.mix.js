@@ -1,3 +1,4 @@
+// webpack.mix.js
 const mix = require('laravel-mix');
 
 /*
@@ -12,5 +13,22 @@ const mix = require('laravel-mix');
  */
 
 mix.react('resources/js/app.js', 'public/js')
-	.react('resources/js/dashboard-app.js', 'public/js')
+   .react('resources/js/dashboard-app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css');
+
+// --- Add this block to properly handle .mjs (ES modules) coming from node_modules.
+// This tells Webpack 4 to treat .mjs as javascript/auto and adds .mjs to resolvable extensions.
+mix.webpackConfig({
+  resolve: {
+    extensions: ['.js', '.jsx', '.json', '.mjs']
+  },
+  module: {
+    rules: [
+      {
+        test: /\.mjs$/,
+        include: /node_modules/,
+        type: 'javascript/auto'
+      }
+    ]
+  }
+});
