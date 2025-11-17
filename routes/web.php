@@ -57,3 +57,6 @@ Route::get('/login', function(){
 // } )->where('path', '.*')->name('login');
 
 Route::resource('contact', 'ContactController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
